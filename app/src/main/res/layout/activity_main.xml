@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backdesign"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    >
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG IN "
+        android:textSize="25dp"
+        android:textColor="#F7612F18"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:paddingBottom="50dp"
+        android:textStyle="italic"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="@string/email"
+        android:textColorHint="#83685E"
+        android:background="@drawable/editdesign"
+        android:padding="10dp"
+        android:id="@+id/email_login"
+        android:paddingBottom="10dp"
+        android:paddingLeft="80dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="@string/password"
+        android:background="@drawable/editdesign"
+        android:padding="10dp"
+        android:textColorHint="#83685E"
+        android:inputType="textPassword"
+        android:id="@+id/password_login"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Sign In"
+        android:id="@+id/login_btn"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="@drawable/editdesign"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/don_t_have_an_account_sign_up_here"
+        android:gravity="center"
+        android:padding="7dp"
+        android:textColor="#C4000000"
+        android:id="@+id/signup_txt"
+        android:textAppearance="?android:textAppearanceSmall"
+        />
+       </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

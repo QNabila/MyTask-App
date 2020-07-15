@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegistrationActivity"
+
+    android:background="@drawable/registration_design">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- android:background="#AECE936B"-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textStyle="italic"
+        android:paddingBottom="30dp"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="@string/email"
+        android:textColorHint="#423D57"
+        android:background="@drawable/registration_button"
+        android:padding="10dp"
+        android:id="@+id/email_reg"
+        android:paddingBottom="10dp"
+        android:paddingLeft="80dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="@string/password"
+        android:background="@drawable/registration_button"
+        android:padding="10dp"
+        android:textColorHint="#423D57"
+        android:inputType="textPassword"
+        android:id="@+id/password_reg"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/registration"
+        android:id="@+id/reg_btn"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="@drawable/registration_button"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_account_sign_in_here"
+        android:gravity="center"
+        android:padding="7dp"
+        android:textColor="#C4000000"
+        android:id="@+id/login_txt"
+        android:textAppearance="?android:textAppearanceSmall"
+        />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TaskApp</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="log_in">Log In</string>
+    <string name="don_t_have_account_sign_up_here">Don\'t have account?Sign Up here</string>
+    <string name="MyTask">MyTask</string>
+    <string name="registration">Registration</string>
+    <string name="already_have_an_account_sign_in_here">Already have an account?sign in here</string>
+    <string name="don_t_have_an_account_sign_up_here">Don\'t have an account?Sign Up here</string>
+</resources>

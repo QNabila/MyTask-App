@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--while creating i selected menu type-->
+
+<!--This is for LOGOUT OPTION-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/logout"
+        android:title="Sign Out"
+        android:icon="@drawable/log_out"
+        app:showAsAction="always"
+       />
+
+</menu>
